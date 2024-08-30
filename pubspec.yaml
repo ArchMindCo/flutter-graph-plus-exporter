@@ -1,0 +1,19 @@
+name: graph_plus_exporter
+version: 1.0.0-alpha
+description: >-
+  Provides a set of export capabilities primiarly used by the graph_plus package
+repository: https://github.com/ArchMindCo/flutter-graph-plus-exporter
+topics:
+  - utils
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: '>=3.3.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  graph_plus_exporter_web: ^1.0.0-alpha
+  plugin_platform_interface: ^2.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
